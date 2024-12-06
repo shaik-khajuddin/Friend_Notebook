@@ -1,0 +1,53 @@
+/* Form Container Styling */
+form {
+  background-color: #f5f5f5; /* Light grey background */
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow around the form */
+  display: flex;
+  flex-direction: column;
+  gap: 16px; /* Adds spacing between form fields */
+  max-width: 400px;
+  margin: 50px auto; /* Centers the form on the page */
+}
+
+/* Input Field Styling */
+input, textarea, select {
+  padding: 12px;
+  font-size: 16px;
+  color: #333; /* Dark grey font color for text */
+  background-color: #fff; /* White background for input fields */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: all 0.3s ease; /* Smooth transition for animations */
+}
+
+/* Input Focus Shadow Effect */
+input:focus, textarea:focus, select:focus {
+  border-color: #007BFF; /* Highlight input border on focus */
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.5); /* Blue glow around focused field */
+  outline: none;
+}
+
+/* Button Styling */
+button {
+  padding: 12px;
+  font-size: 16px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue when hovered */
+}
+
+/* Form Hover Animation */
+form:hover {
+  transform: scale(1.02); /* Slight zoom effect */
+  transition: transform 0.3s ease;
+}
